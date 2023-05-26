@@ -1,0 +1,45 @@
+body{
+    padding: 20px;
+    background-color: rgb(38, 38, 80);
+}
+.todo{
+    background-color: rgb(240, 235, 235);
+    height: 130px;
+    width: 50%;
+    border-radius: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#itodo{
+   width: 40%;
+   height: 40px;
+   margin-right: 20px;
+   border-radius: 10px;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   outline: none;
+   font-size: 18px;
+   box-shadow: 6px 5px gray;
+}
+#itodo:focus{
+    transform: scale(1.1)
+}
+#btn{
+   height: 30px;
+   width: 10%;
+   border-radius: 10px;
+   background-color: rgb(73, 228, 99);
+   border: none;
+   transition: background-color 1.5s;
+}
+#btn:hover{
+  background-color: rgba(18, 22, 22, 0.694);
+  color: white;
+  transition: color 1.5s ,background-color 1.5s;
+}
+#addTodo{
+    background-color: blanchedalmond;
+    padding: 5px;
+    width: 50%;
+    border-radius: 5px;
+}

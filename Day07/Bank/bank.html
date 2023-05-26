@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Transaction</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <center>
+    <div class="bankmain">
+        <div id="time">
+           <h2>Time Remaining :</h2>
+           <h2 id="timerem" style="color: rgb(112, 229, 239);">15</h2>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <h2>Total Balance :</h2>
+            <h2 id="total" style="color: white;">1000</h2>
+            <h2>₹</h2>
+        </div>
+        <div style="display: flex;justify-content: space-between;">
+            <h2>Enter Ammount</h2>
+           <input type="text" id="amt" style="height: 20px;margin-top: 17px;">
+        </div>
+        <input type="button" value="Debit" id="debitbtn" onclick="bank()">
+        <h2 id="bankmsg"></h2>
+    </div>
+</center>
+<script src="bank.js"></script>
+</body>
+</html>

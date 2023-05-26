@@ -1,0 +1,82 @@
+
+#rocket{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    /* background-color: red; */
+    top: 401px;
+    left: 172px;
+}
+#base{
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    background-color: black;
+    top: 554px;
+}
+#btn, #resume{
+    position: absolute;
+    left: 30px;
+    background-color: rgb(61, 228, 64);
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 50px;
+    padding: 3px;
+}
+#resume{
+    left: 90px;
+}
+#boom{
+    /* background-color:green; */
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    top: 226px;
+    left: 772px;
+    visibility: hidden;
+}
+/* ----------------right rocket--------------------- */
+#rocket2{
+    position: absolute;
+    /* right: 20px; */
+    width: 150px;
+    height: 150px;
+    /* background-color: red; */
+    top: 401px;
+    left: 1212px;
+}
+#base2{
+    position: absolute;
+    right: 20px;
+    width: 350px;
+    height: 50px;
+    background-color: black;
+    top: 554px;
+}
+#btn2, #resume2{
+    position: absolute;
+    right: 30px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 50px;
+    padding: 3px;
+}
+#resume2{
+    right: 90px;
+}
+#boom2{
+    background-color:green;
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    top:  226px;
+    left: 772px;
+    visibility: hidden;
+    transform: rotate(20deg);
+    transform-origin: right top;
+    transition: transform 1.5s;
+    transition-timing-function: ease-in-out;
+}

@@ -1,0 +1,19 @@
+[
+    {"id": 1, "itemName": "vadapav", "price": 20, "photo":  "food\\vadapav.jpg"},
+    {"id": 2, "itemName": "pasta", "price": 150, "photo": "food\\pasta.jpg"},
+    {"id": 3, "itemName": "burger", "price":120, "photo":  "food\\burger.jpg"},
+    {"id": 4, "itemName": "Asian rice", "price":110, "photo":  "food\\asian rice.jpg"},
+    {"id": 5, "itemName": "Beer", "price":140, "photo":  "food\\Beer.jpg"},
+    {"id": 6, "itemName": "Biryani", "price":120, "photo":  "food\\biryani.jpg"},
+    {"id": 7, "itemName": "Curry plate", "price":90, "photo":  "food\\curry plate.jpg"},
+    {"id": 8, "itemName": "Idle", "price":40, "photo":  "food\\idle.jpg"},
+    {"id": 9, "itemName": "Jalebi", "price":80, "photo":  "food\\jalebi.jpg"},
+    {"id": 10, "itemName": "Korma", "price":90, "photo":  "food\\korma.jpg"},
+    {"id": 11, "itemName": "Pasta", "price":110, "photo":  "food\\pasta.jpg"},
+    {"id": 12, "itemName": "burger", "price":140, "photo":  "food\\burger.jpg"},
+    {"id": 13, "itemName": "Asian rice", "price":130, "photo":  "food\\asian rice.jpg"},
+    {"id": 14, "itemName": "Curry plate", "price":100, "photo":  "food\\curry plate.jpg"},
+    {"id": 15, "itemName": "Idle", "price":60, "photo":  "food\\idle.jpg"},
+    {"id": 16, "itemName": "Asian rice", "price":120, "photo":  "food\\asian rice.jpg"},
+    {"id": 17, "itemName": "Beer", "price":150, "photo":  "food\\Beer.jpg"}
+]

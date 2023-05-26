@@ -1,0 +1,50 @@
+body {
+  background-image:url('ii.png');
+  /* background: rgb(131, 58, 180); */
+  /* background: radial-gradient(
+    circle,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(142, 181, 241, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  ); */
+  /* opacity: 0.5; */
+}
+
+.register {
+  border-radius: 10px;
+  margin-left: 40%;
+  margin-top: 10%;
+  width: 270px;
+  height: 270px;
+  background-color: hsl(32, 100%, 50%);
+  box-shadow: 11px 8px rgb(97, 94, 94);
+  /* opacity: 0.9; */
+  background: transparent;
+}
+input {
+  margin: 10px;
+  padding: 2px;
+  border-color: rgb(218, 133, 133);
+  border-radius: 10px;
+  /* border: none; */
+  height: 27px;
+  width: 250px;
+  color: black;
+}
+input:focus{
+    background-color: rgb(189, 194, 191);
+    border-color: aliceblue;
+}
+
+
+input[type=submit]{
+    width: 150px;
+    display: block;
+    margin : 10px auto;
+}
+#submit:hover{
+    background-color: #81d324;
+    color: rgb(251, 249, 249);
+    transform: scale(115%)
+}
+

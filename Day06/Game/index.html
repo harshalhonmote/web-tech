@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Play Game</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <center>
+    <div class="main">
+        <div class="inner1" id="in1">
+          <div class="smallBox" id="1" onclick="change('1')"></div>
+          <div class="smallBox" id="2" onclick="change('2')"></div>
+          <div class="smallBox" id="3" onclick="change('3')"></div>
+          <div class="smallBox" id="4" onclick="change('4')"></div>
+          <div class="smallBox" id="5" onclick="change('5')"></div>
+          <div class="smallBox" id="6" onclick="change('6')"></div>
+          <div class="smallBox" id="7" onclick="change('7')"></div>
+          <div class="smallBox" id="8" onclick="change('8')"></div>
+          <div class="smallBox" id="9" onclick="change('9')"></div>
+        </div>
+        <div class="inner2">
+            <div style="height: 120px;">
+                <h2>Attempts:</h2>
+                <h3 id="Attempts">3</h3>
+                <h2 id="showmsg"></h2>
+            </div>
+            <input type="button" value="Start Again" id="btn" onclick="reset()">
+        </div>
+    </div>
+</center>
+</body>
+</html>
